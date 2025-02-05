@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Sign up for an account to access our services. Choose your role as Admin or Editor and get started today!"
+    />
+    <meta
+      name="keywords"
+      content="sign up, registration, account, admin, editor, user role"
+    />
+    <meta name="author" content="Your Company Name" />
+    <meta name="robots" content="index, follow" />
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="style.css" media="all" />
+  </head>
+  <body>
+    <!-- notifikasi form -->
+    <div class="notif-main-container" id="notif">
+      <div class="notif-border-container">
+        <div class="notif-border">
+          <h2 id="warning">Info!!</h2>
+          <span class="information" id="information"></span>
+          <button id="btnConfirm" class="btn-confirm">Oke</button>
+        </div>
+      </div>
+    </div>
+    <!-- notifikasi form -->
+
+    <!-- notifikasi input value username and password -->
+    <!-- nontifikasi max character username -->
+    <div class="char-notif-main-container" id="charNotifUser">
+      <div class="char-notif-border">
+        <span id="charInfoUser"
+          >USERNAME
+          <p>Karakter tersisa 15</p></span
+        >
+      </div>
+    </div>
+    <!-- nontifikasi value password -->
+    <div class="char-notif-main-container" id="charNotifPass">
+      <div class="char-notif-border">
+        <span id="charInfoPass">PASSWORD</span>
+      </div>
+    </div>
+
+    <!-- form input untuk pendaftaran  -->
+    <form action="" id="formInput">
+      <div class="form-element-container">
+        <div class="form-element">
+          <h2>Sign Up</h2>
+          <input
+            type="text"
+            id="inputUser"
+            placeholder="username"
+            class="input-element"
+            maxlength="15"
+          />
+          <input
+            type="password"
+            id="inputPass"
+            placeholder="password"
+            class="input-element"
+          />
+          <input
+            type="password"
+            id="confirmPass"
+            placeholder="confirm password"
+            class="input-element"
+          />
+          <div class="role-container">
+            <span>Role:</span>
+            <select id="userRole" class="role-input">
+              <option value="admin" selected>Admin</option>
+              <option value="editor">Editor</option>
+            </select>
+          </div>
+          <div class="btn-submit-container">
+            <input
+              type="submit"
+              value="submit"
+              class="btn-submit"
+              id="submit"
+            />
+            <input
+              type="button"
+              class="btn-submit"
+              id="signInBtn"
+              value="sign in"
+            />
+            <input
+              type="button"
+              class="btn-submit"
+              id="checkData"
+              value="cek data"
+            />
+          </div>
+        </div>
+      </div>
+      <!-- table untuk memunculkan data -->
+    </form>
+
+    <!-- script source javascript -->
+    <script src="script.js"></script>
+  </body>
+</html>

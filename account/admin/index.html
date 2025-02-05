@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Admin section for managing user information and roles"
+    />
+    <meta
+      name="keywords"
+      content="admin, user management, roles, profile, information"
+    />
+    <meta name="author" content="Badilll" />
+    <title>admin section</title>
+    <link rel="stylesheet" href="style.css" media="all" />
+  </head>
+  <body>
+    <!-- kode untuk notifikasi -->
+    <div class="notif-main-container" id="notif">
+      <div class="notif-border-container">
+        <div class="notif-border">
+          <h2>Info!!</h2>
+          <span class="information" id="notifInformation"></span>
+          <button id="btnConfirm" class="btn-confirm">Oke</button>
+        </div>
+      </div>
+    </div>
+    <!-- kode notifikasi -->
+
+    <div class="profile-main-container">
+      <div class="profile-border-container">
+        <h1>Admin Info</h1>
+        <div class="profile-avatar">1080x1920</div>
+        <div class="data-container">
+          <div class="data">
+            <p class="dataInfo">Username</p>
+            <span id="username" class="info"></span>
+          </div>
+          <div class="data">
+            <p class="dataInfo">Password</p>
+            <input type="text" id="password" class="info-pass" disabled />
+            <p id="reset" class="button">Reset</p>
+          </div>
+          <div class="data">
+            <p class="dataInfo">Role</p>
+            <span id="role" class="info"></span>
+          </div>
+          <div class="data">
+            <span id="back" class="button">Home</span>
+            <span id="cancel" class="button">confirm</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- script -->
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,128 @@
+@font-face {
+  font-family: Poppins Bold;
+  src: url(../assets/fonts/Poppins-Bold.ttf);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* kode untuk notifikasi form input */
+.notif-main-container {
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  backdrop-filter: blur(2px);
+  user-select: none;
+  transform: translateY(-999px);
+}
+
+.notif-border-container {
+  display: inherit;
+  align-items: inherit;
+  justify-content: inherit;
+  font-family: Poppins Bold;
+  background-color: white;
+  padding: 1.5em 2em;
+  border-radius: 1em;
+  border: 0.3em solid black;
+  font-size: 1.3em;
+  margin: 0 0.2em;
+  text-align: center;
+}
+
+.notif-border {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.btn-confirm {
+  border: none;
+  background-color: black;
+  color: white;
+  font-family: inherit;
+  padding: 0.8em 2.5em;
+  margin: 1.5em 0;
+  border-radius: 0.5em;
+}
+.btn-confirm:hover {
+  cursor: pointer;
+}
+.btn-confirm:active {
+  background-color: rgb(50, 50, 50);
+}
+/* kode untuk notifikasi form input */
+
+/* form input */
+.form-element-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  font-family: Poppins Bold;
+}
+
+.form-element {
+  display: inherit;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.input-element {
+  margin: 1em 0;
+  padding: 0.5em 1.5em;
+  outline: none;
+  border: 0.2em solid black;
+  font-family: Poppins Bold;
+  border-radius: 0.3em;
+}
+.input-element:focus {
+  box-shadow: 0 0 1em rgb(169, 169, 169);
+}
+
+.role-input {
+  border: none;
+  font-family: inherit;
+  color: rgb(120, 120, 120);
+  outline: inherit;
+  font-size: 0.9em;
+  border-radius: 0.3em;
+}
+
+.role-input:hover {
+  cursor: pointer;
+  box-shadow: 0 0 1em rgb(128, 128, 128);
+}
+
+.btn-submit {
+  margin: 1em 0;
+  border: inherit;
+  font-family: inherit;
+  background-color: black;
+  color: white;
+  padding: 0.5em 1em;
+  border-radius: 0.3em;
+}
+.btn-submit:hover {
+  cursor: pointer;
+}
+.btn-submit:active {
+  background-color: rgb(52, 52, 52);
+}
+
+.btn-sign-in {
+  margin: 1em 0;
+  border: inherit;
+  font-family: inherit;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  border-radius: 0.3em;
+  padding: 0.3em 1em;
+}

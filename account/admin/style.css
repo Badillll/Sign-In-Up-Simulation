@@ -1,0 +1,150 @@
+@font-face {
+  font-family: Poppins Bold;
+  src: url(../../assets/fonts/Poppins-Bold.ttf);
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  width: 100%;
+  height: 80vh;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+/* kode untuk notifikasi form input */
+.notif-main-container {
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  backdrop-filter: blur(2px);
+  user-select: none;
+  z-index: 1;
+  transform: translateY(-999px);
+}
+
+.notif-border-container {
+  display: inherit;
+  align-items: inherit;
+  justify-content: inherit;
+  font-family: "Poppins Bold";
+  background-color: white;
+  padding: 1.5em 2em;
+  border-radius: 1em;
+  border: 0.3em solid black;
+  font-size: 1.3em;
+  margin: 0 0.2em;
+  text-align: center;
+}
+
+.notif-border {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.btn-confirm {
+  border: none;
+  background-color: black;
+  color: white;
+  font-family: inherit;
+  padding: 0.8em 2.5em;
+  margin: 1.5em 0;
+  border-radius: 0.5em;
+}
+.btn-confirm:hover {
+  cursor: pointer;
+}
+.btn-confirm:active {
+  background-color: rgb(50, 50, 50);
+}
+/* kode untuk notifikasi form input */
+
+.profile-main-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Poppins Bold";
+  user-select: none;
+  margin: 0.3em;
+}
+.profile-border-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0.5em;
+}
+
+.profile-avatar {
+  background-color: black;
+  padding: 4em 9em;
+  color: white;
+  border-radius: 0.4em;
+  width: 100%;
+}
+
+.data {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin: 0.8em 0;
+}
+
+.data-container {
+  width: 100%;
+}
+
+.dataInfo {
+  padding: 0.3em 0.4em;
+  border: 3.2px solid black;
+  border-radius: 0.4em;
+}
+
+.info {
+  padding: 0.3em 0.5em;
+  border: 3.2px solid black;
+  border-radius: 0.4em;
+  width: 100%;
+  margin: 0 0.3em;
+}
+
+.info-pass {
+  padding: 0.5em 0.5em;
+  border: 3.2px solid black;
+  border-radius: 0.4em;
+  width: 100%;
+  margin: 0 0.3em;
+  outline: none;
+  font-family: "Poppins Bold";
+  color: black;
+}
+
+.button {
+  padding: 0.3em 0.5em;
+  border: 3.2px solid black;
+  border-radius: 0.4em;
+  background-color: black;
+  color: white;
+  margin-right: 0.3em;
+  font-size: 1em;
+}
+.button:hover {
+  cursor: pointer;
+}
+.button:active {
+  background-color: rgb(42, 42, 42);
+}
+
+h1 {
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  color: white;
+}

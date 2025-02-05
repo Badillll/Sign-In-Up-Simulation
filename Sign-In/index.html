@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Sign in to access your account and manage your data. Secure and easy login process."
+    />
+    <meta
+      name="keywords"
+      content="sign in, login, user account, secure login, data management"
+    />
+    <meta name="author" content="Badilll" />
+    <title>Sign In</title>
+    <link rel="stylesheet" href="style.css" media="all" />
+  </head>
+  <body>
+    <!-- kode untuk notifikasi -->
+    <div class="notif-main-container" id="notif">
+      <div class="notif-border-container">
+        <div class="notif-border">
+          <h2>Info!!</h2>
+          <span class="information" id="notifInformation"></span>
+          <button id="btnConfirm" class="btn-confirm">Oke</button>
+        </div>
+      </div>
+    </div>
+    <!-- kode notifikasi -->
+
+    <!-- form input untuk pendaftaran  -->
+    <form action="" id="formInput">
+      <div class="form-element-container">
+        <div class="form-element">
+          <h2>Sign In</h2>
+          <input
+            type="text"
+            id="inputUser"
+            placeholder="username"
+            class="input-element"
+          />
+          <span id="information" id="lengthInformation"></span>
+          <input
+            type="password"
+            id="inputPass"
+            placeholder="password"
+            class="input-element"
+          />
+          <div class="btn-submit-container">
+            <input type="submit" value="login" class="btn-submit" id="submit" />
+            <input
+              type="button"
+              value="sign up"
+              class="btn-submit"
+              id="signUpBtn"
+            />
+          </div>
+        </div>
+      </div>
+    </form>
+
+    <!-- script js -->
+    <script src="script.js"></script>
+  </body>
+</html>
