@@ -72,8 +72,8 @@ button[0].addEventListener("click", () => {
           formNotifAnimation();
           notifInformation.innerHTML = `apakah anda ingin mengganti <p>password anda menjadi</p> <p>${data[1].value}</p>`;
           button[3].addEventListener("click", () => {
-            adminData.password = data[1].value;
-            localStorage.setItem("admin", JSON.stringify(adminData));
+            editorData.password = data[1].value;
+            localStorage.setItem("admin", JSON.stringify(editorData));
             formNotifAnimation();
             notifInformation.textContent = "Password berhasil diubah!!";
             button[3].addEventListener("click", () => {
